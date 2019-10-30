@@ -1,0 +1,6 @@
+test = ['other', 'show', 'will', 'take', 'place', 'in', 'new', 'jersey', ';', 'tokyo', ';', 'shanghai', '"', 'china', ';', 'rio', 'de', 'janeiro', '"', 'brazil', ';', 'sydney', '"', 'australia', ';', 'johannesburg', '"', 'south', 'africa', ';', 'hamburg', '"', 'germany', ';', 'and', 'istanbul', '"', 'turkey', '.', 'mr.', 'yushchenko', 'say', 'in', 'a', 'nationwide', 'television', 'address', 'monday', 'that', 'under', 'the', 'constitution', '"', 'the', 'parliament', 'would', 'have', 'no', 'authority', '.', 'yasser', 'arafat', 'will', 'meet', 'shimon', 'peres', 'in', 'gaza', 'on', 'thursday', 'after', 'palestinians', 'say', 'the', 'right', '-', 'wing', 'israeli', 'government', 'have', 'bar', 'the', 'palestinian', 'leader', 'from', 'fly', 'to', 'the', 'west', 'bank', 'for', 'talk', 'with', 'the', 'former', 'prime', 'minister', '.', 'baseball', '-', 'sorrento', 'hit', 'slam', 'as', 'seattle', 'rout', 'orioles', '.', 'medical', 'professional', 'in', 'india', 'protest', 'against', 'a', 'quota', 'have', 'be', 'join', 'by', 'professional', 'from', 'other', 'field', '"', 'as', 'demonstration', 'continue', 'in', 'the', 'capital', '.']
+
+if 'say' in test:
+    test = list(filter(lambda x: x != 'say', test))
+
+a=1
