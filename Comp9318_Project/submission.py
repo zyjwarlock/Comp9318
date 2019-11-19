@@ -1,7 +1,7 @@
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
-import helper
+from . import helper
 
 
 def fool_classifier(test_data):  ## Please do not change the function defination...
